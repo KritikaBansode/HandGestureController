@@ -1,4 +1,4 @@
-# HandGestureController
+# Hand Gesture Controller
 
 ## 📌 Project Description
 The **Hand Gesture Controller** is an innovative application designed to allow users to control PowerPoint presentations through hand gestures. Users can upload their PowerPoint files to the app and navigate through the slides using predefined gestures. This project leverages computer vision and deep learning techniques to detect and recognize hand gestures, providing a seamless and interactive presentation experience.
@@ -16,7 +16,8 @@ The **Hand Gesture Controller** is an innovative application designed to allow u
 - MediaPipe
 - Streamlit (for user interface)
 - TensorFlow/Keras (for gesture recognition model)
-- AWS (for deployment)
+- Replit (for deployment)
+- PyAutoGUI (for controlling presentation actions)
 
 ## 📂 Installation
 1. **Clone the repository:**  
@@ -40,8 +41,15 @@ The **Hand Gesture Controller** is an innovative application designed to allow u
 2. **Upload your PowerPoint file.**
 3. **Use hand gestures to control your presentation.**
 
-## 📦 Deployment (AWS)
-- Details about deploying the application on AWS will be added here.
+## 📦 Deployment (Replit)
+- This application is deployed on Replit for easy access and testing.
+- To deploy on Replit:
+  1. Log in to your Replit account.
+  2. Create a new Repl and import this GitHub repository.
+  3. Install all dependencies listed in `requirements.txt`.
+  4. Set the entry point to `app.py` and run the Repl.
+  5. The app will be accessible via a Replit-generated URL.
+
 
 ## 🤖 Future Enhancements
 - Improve gesture recognition accuracy.
